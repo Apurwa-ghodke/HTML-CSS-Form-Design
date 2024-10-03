@@ -1,0 +1,118 @@
+/* Base Style */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Style the form container */
+
+form {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+
+    /* Style form labels */
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    /* Style text input, email, tel, and number fields */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="number"],
+    input[type="password"],
+    input[type="date"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* Style dropdown/select */
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    /* Style checkboxes and radio buttons */
+    input[type="checkbox"],
+    input[type="radio"] {
+        margin-right: 10px;
+    }
+
+    /* Style submit button */
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    /* Change submit button color on hover */
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    /* Style file upload */
+    input[type="file"] {
+        background-color: #eee;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    /* Style range inputs */
+    input[type="range"] {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Style color picker */
+    input[type="color"] {
+        border: none;
+        height: 40px;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 20px;
+    }
+
+    /* Style the audio and video elements */
+    audio, video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Style for the play/pause button */
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #008CBA;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    /* Change button color on hover */
+    button:hover {
+        background-color: #007bb5;
+    }
