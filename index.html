@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extended HTML Form Fields Example</title>
+</head>
+<body>
+    <h2>Extended Form Fields Example</h2>
+    <form action="/submit_form" method="POST">
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@example.com" required>
+        <br><br>
+
+        <!-- Telephone input -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+        <br><br>
+
+        <!-- Date input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br><br>
+
+        <!-- Dropdown/Select -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select>
+        <br><br>
+
+        <!-- Number input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="100" required>
+        <br><br>
+
+        <!-- Range input (Experience) -->
+        <label for="experience">Experience (in years):</label>
+        <input type="range" id="experience" name="experience" min="0" max="50">
+        <br><br>
+
+        <!-- Range input (Volume) -->
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" name="volume" min="0" max="100">
+        <br><br>
+
+        <!-- Color picker -->
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <br><br>
+
+        <!-- File input -->
+        <label for="resume">Upload your resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf, .docx">
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your comments here..."></textarea>
+        <br><br>
+
+        <!-- Audio Controls -->
+        <label>Sample Audio:</label>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <br><br>
+
+        <!-- Video Controls -->
+        <label>Sample Video:</label>
+        <video controls width="400">
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+        <br><br>
+
+        <!-- Pause/Play button for the video -->
+        <button type="button" onclick="togglePlayPause()">Play/Pause Video</button>
+        <br><br>
+
+        <!-- Submit button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
